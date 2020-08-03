@@ -1,0 +1,62 @@
+.blueSection{
+    background-color: #2E5F98;
+    width: 42%;
+    height: 115vh;
+    margin-top: -130px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 8%;
+}
+
+h1{
+    margin-top: 1vh;
+    color:white;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.buttonDemo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 45px;
+    margin-top: 1.5vh;
+    background-color: #E5590A;
+    color: white;
+    border-radius: 40px;
+    text-align: center;
+}
+.buttonDemo:hover{
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0px 0px 16px -1px rgba(229,89,10,1);
+}
+.despachoImg{
+    background-image: url(../../assets/parcel-boxes-in-cargo-cart-delivery-service-JRAA53J.jpg);
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -5px;
+    width: 60%;
+    border-radius: 0 180px 0 0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    background-size: cover;
+}
+
+.orangeElement{
+    background-color: #E5590A;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 80vh;
+    height: 570px;
+    width: 145px;
+    border-radius: 110px 0 0 0 ;
+}

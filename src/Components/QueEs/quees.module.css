@@ -1,0 +1,60 @@
+.queEsContainer{
+    padding: 0 8%;
+    margin: 5.7% 0;
+}
+.queEsContainer h2{
+    color:#2E5F98;
+    font-weight: 700;
+    font-size: 44px;
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
+
+.queEsContainer p{
+    width: 38%;
+    text-align: justify;
+    color:#2E5F98;
+    font-size: 15px;
+}
+.queEsContainer a{
+    color:#2E5F98;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+.textContainer{
+    padding: 0 8%;
+}
+.demo{
+    font-weight: 700;
+}
+.orangeDivisor{
+    background-color: #E5590A;
+    width: 45px;
+    height: 7px;
+}
+
+.greyBkg{
+    background-color: #EBEBEB;
+    width: 100%;
+    position:absolute;
+    left: 0;
+    height: 100%;
+}
+
+.queEsImg{
+    background-image: url(../../assets/a-smiling-person-wearing-an-orange-t-shirt-and-a-n-9M5R2VS.jpg);
+    position: absolute;
+    width: 40%;
+    height: 45%;
+    top: -13vh;
+    right: 8%;
+    margin-bottom: -5px;
+    border-radius: 120px 0 0 0;
+    background-size: cover;
+    box-shadow: 18px 18px 0px 0px rgba(255,255,255,1);
+    z-index: 3;
+}
