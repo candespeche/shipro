@@ -1,0 +1,58 @@
+.clientesContainer{
+    display: flex;
+    padding: 0 5% 0 8%;
+    margin-bottom: 5vh;
+    align-items: center;
+}
+.txtContainer{
+    width: 35%;
+}
+.logosClientes{
+    width: 65%;
+}
+.titleClientes{
+    color:#2E5F98;
+    font-weight: 700;
+    font-size: 44px;
+    margin-top: 10vh;
+    margin-bottom: 15px;
+}
+.orangeDivisor{
+    background-color: #E5590A;
+    width: 45px;
+    height: 7px;
+}
+.textQuees{
+    width: 85%;
+    text-align: justify;
+    color:#2E5F98;
+    font-size: 15px;
+}
+.demo{
+    font-weight: 700;
+}
+.textQuees a{
+    color:#2E5F98;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.textQuees a:hover{
+    cursor: pointer;
+}
+.logos01 img{
+    width: 23%;
+
+}
+.logos01{
+    margin: 50px 0 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.logos02 img{
+    width: 23%;
+}
+.logos02{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,78 @@
+.heroContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleWraper{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 8%;
+}
+.titleWraper h1{
+    color: #2E5F98;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 63px;
+}
+.faqImg{
+    background-image: url(../../assets/courier-delivering-parcel.jpg);
+    box-shadow: 50px -45px 0px -9px rgba(229,89,10,1);
+    width: 55%;
+    height: 70vh;
+    border-radius: 0 190px 0 0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    background-size: cover;
+    z-index:-1;
+}
+.faqContainer{
+    padding: 8% 8%;
+}
+.titleEach{
+    color: #2E5F98;
+    font-size: 22px;
+    font-weight: 700;
+}
+.orangeDivisor{
+    background-color: #E5590A;
+    width: 45px;
+    height: 9px;
+    margin-top: -14px;
+}
+.questionWrap{
+    cursor: pointer;
+    color: #2E5F98;
+    padding: 0 5%;
+}
+.answerWrapClick{
+    display: none;
+}
+.answerWrap{
+    padding: 0 15% 0 10%;
+    text-align: justify;
+}
+.questionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.questionContainer h3 {
+    font-weight: 500;
+    padding: 0.5% 0;
+    width: 80%;
+}
+.circle{
+    /* background-color: #2E5F98; */
+    width: 25px;
+    height: 25px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 5%;
+}
