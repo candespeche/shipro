@@ -1,0 +1,31 @@
+{
+    "short_name": "Shipro",
+    "name": "Shipro",
+    "description": "Logística de envío para tu ecommerce",
+    "icons": [
+        {
+            "src": "../favicon.svg",
+            "type": "image/svg",
+            "sizes": "192x192"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#fff",
+    "shortcuts": [
+        {
+            "name": "Shipro",
+            "short_name": "Shipro",
+            "description": "Logística de envío para tu ecommerce",
+            "url": "/today?source=pwa"
+        },
+        {
+            "name": "Shipro",
+            "short_name": "Preguntas frecuentes",
+            "description": "Logística de envío para tu ecommerce",
+            "url": "/faqs"
+        }
+    ]
+}
