@@ -1,0 +1,324 @@
+.navbarContainerHome{
+    display: flex;
+    padding: 0 8%;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #2E5F98;
+}
+a:hover{
+    cursor: pointer;
+    color: #E5590A;
+}
+.logoH{
+    width: 70%;
+    height: auto;
+    margin-top: 20px;
+}
+.logoH:hover{
+    cursor: pointer;
+}
+.linksHome{
+    display: flex;
+    align-items: center;
+    padding-top: 6%;
+}
+
+.linksHome p{
+    display:inline-block;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+    color: #2E5F98;
+    margin-right: 45px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.linksHome svg{
+    width: 20px;
+    height: 18px;
+    /* margin-bottom: -3px; */
+    stroke: #2E5F98;
+}
+
+.fstSvg{
+    margin-right: 30px;
+}
+.linksHome svg:hover{
+    cursor: pointer;
+    stroke:#E5590A;
+}
+
+.linksHome p:hover {
+    cursor: pointer;
+    color: #E5590A;
+}
+
+
+/* ------ NOT HOME ------ */
+
+.navbarContainer{
+    display: flex;
+    padding: 1.8% 10%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E5F98;
+    z-index: 2;
+}
+.logo{
+    width: 55%;
+    height: auto;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    align-items: center;
+    .hoveroffp{
+        color: white !important;
+    }
+    .hoveronp{
+        color: white !important;
+        text-decoration: underline;
+    }
+    .hoveroffp{
+        color: white !important;
+    }
+    .hover2onp{
+        color: white !important;
+        text-decoration: underline;
+    }
+    svg{
+        stroke: white;
+    }
+
+}
+.links p {
+    display:inline-block;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    margin-right: 45px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+svg{
+    width: 20px;
+    height: 18px;
+    margin-bottom: -3px;
+    stroke: #fff;
+}
+
+.fstSvg{
+    margin-right: 30px;
+}
+
+.links p:hover {
+    cursor: pointer;
+}
+.hoveronp{
+    color: #E5590A !important;
+}
+.hoveroffp{
+    color: #2E5F98 !important;
+}
+
+.hover1off{
+    display: none;
+}
+
+.hover1on{
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -40px;
+}
+.hover1on ul{
+    padding: 0 30px;
+}
+.hover1on li{
+    color: #2E5F98;
+    list-style: none;
+    margin: 5px 0;
+}
+.hover1on li:hover{
+    cursor: pointer;
+    color: #E5590A;
+}
+
+/* -------- */
+
+.hover2off{
+    display: none;
+}
+
+.hover2on{
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -40px;
+    }
+.hover2on ul{
+    padding: 0 30px;
+}
+.hover2on li{
+    color: #2E5F98;
+    list-style: none;
+    margin: 5px 0;
+}
+.hover2on li:hover{
+    cursor: pointer;
+    color: #E5590A;
+}
+.hover2onp{
+    color: #E5590A !important;
+}
+.hover2offp{
+    color: #2E5F98 !important;
+}
+
+.burgerContainerHide{
+    display: none;
+}
+.burgerContainerShow{
+    display: none;
+
+}
+/* -------- */
+
+.hover3off{
+    display: none;
+}
+
+.hover3on{
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    padding: 10px;
+    margin-left: -120px;
+    }
+.hover3on ul{
+    padding: 0 30px;
+}
+.hover3on li{
+    color: #2E5F98;
+    list-style: none;
+    margin: 5px 0;
+}
+.hover3on li:hover{
+    cursor: pointer;
+    color: #E5590A;
+}
+.hover3onp{
+    stroke:#E5590A !important;
+}
+.hover3offp{
+    stroke: #2E5F98;
+}
+
+
+@media only screen and (max-width: 768px){
+    .linksHome, .links{
+        display: none;
+    }
+
+    .logoH{
+        width: 50%;
+        margin-top: 30px;
+    }
+    .burgerContainer{
+        display: none;
+    }
+    .burgerContainerHide{
+        display: block;
+        a{
+            display: none;
+        }
+
+    }
+    .burgerContainerShow{
+        // width: 100%;
+        // height: 100vh;
+        position: absolute;
+        height: 100%;
+        right: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #2E5F98;
+        padding: 5% 10%;
+        a{
+            color: white;
+            text-decoration: none;
+            margin: 3px 0;
+
+        }
+        .firstLink{
+            margin-top: 50px;
+            font-weight: bold;
+        }
+    }
+    .burgerIconCont{
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 2%;
+        padding: 6% 5%;
+        .burgerIcon1,.burgerIcon2,.burgerIcon3{
+            background-color: white;
+            height: 3px;
+            width: 30px;
+            border-radius: 10px;
+            margin: 5px;
+        }
+
+    }
+    .closeIconCont{
+        margin-top: 20px;
+        position:absolute;
+        right: 0;
+        top: 0;
+        margin-top: 16%;
+
+        margin-right: 20px;
+        .burgerIcon1{
+            background-color: white;
+            height: 3px;
+            width: 30px;
+            border-radius: 10px;
+            transform: rotate(-45deg);
+
+        }
+        .burgerIcon2{
+            background-color: white;
+            height: 3px;
+            width: 30px;
+            border-radius: 10px;
+            margin-top: -3px;
+            transform: rotate(45deg);
+        }
+    }
+    .navbarContainerHome{
+        background-color: #2E5F98;
+        height: 100px;
+    }
+    .burgerContainerLinks{
+        color: #2E5F98;
+        list-style: none;
+        margin: 5px 0;
+    }
+
+    .logo{
+        width: 52%;
+        margin-top: 20px;
+    }
+}

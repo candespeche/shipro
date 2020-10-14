@@ -27,7 +27,7 @@
     z-index:-1;
 }
 .faqContainer{
-    padding: 8% 8%;
+    padding: 4% 8% 8% 8%;
 }
 .titleEach{
     color: #2E5F98;
@@ -75,4 +75,33 @@
     font-size: 17px;
     cursor: pointer;
     margin-right: 5%;
+}
+
+.fotoMobile{
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px){
+    .heroContainer{
+        flex-direction: column;
+        .titleWraper{
+            margin-top: 20%;
+            h1{
+                font-size: 50px;
+                line-height: 55px;
+            }
+        }
+    }
+    .faqImg{
+        display: none;
+    }
+    .fotoMobile{
+        display: block;
+        width: 100%;
+        img{
+            width: 100%;
+            margin-top: 10%;
+        }
+    }
 }

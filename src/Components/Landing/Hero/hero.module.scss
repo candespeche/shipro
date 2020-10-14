@@ -59,3 +59,33 @@ h1{
     width: 145px;
     border-radius: 110px 0 0 0 ;
 }
+
+
+
+@media only screen and (max-width: 768px){
+
+    .blueSection{
+        background-color: #E5590A;
+        width: auto;
+        height: 55vh;
+        margin-top: 0px;
+        padding: 12% 8%;
+        justify-content: center;
+        h1{
+            font-size: 45px;
+            line-height: 50px;
+            margin-top: 0;
+        }
+    }
+    .buttonDemo{
+        background-color: #2E5F98;
+        width: 180px;
+        margin-top: 0;
+    }
+    .despachoImg{
+        display: none;
+    }
+    .orangeElement{
+        display: none;
+    }
+}

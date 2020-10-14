@@ -1,8 +1,9 @@
 import React from "react";
-import style from "./faqs.module.css"
+import style from "./faqs.module.scss"
 import Navbar from "../Common/Navbar/Navbar"
 import Questions from "./Questions"
 import Footer from "../Common/Footer/Footer";
+import envioFoto from "../../assets/courier-delivering-parcel.jpg"
 
 function FAQs() {
     let questions = [{
@@ -91,17 +92,20 @@ function FAQs() {
                     <div className={style.orangeDivisor}></div>
                 </div>
                 <div className={style.faqImg}></div>
+                <div className={style.fotoMobile}>
+                    <img src={envioFoto} alt="preguntas frecuentes" />
+                </div>
             </div>
             <div className={style.faqContainer}>
                 {questions.map((eachQuestion) => {
                     return (
                         <div key={eachQuestion.question}>
                             <p className={style.titleEach}>{eachQuestion.title}</p>
-                            {eachQuestion.rows.map((data) => {
+                            {eachQuestion.rows.map((data, index) => {
                                 return (
-                                    <>
+                                    <div key={index}>
                                         <Questions data={data} />
-                                    </>
+                                    </div>
                                 )
                             }
                             )}

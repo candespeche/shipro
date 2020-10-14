@@ -19,19 +19,48 @@
 }
 .queEsContainer a{
     color:#2E5F98;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 700;
+    margin-left: -15px;
     text-decoration: none;
 }
-a:hover{
+.demo:hover{
     cursor: pointer;
+    color: white;
+    font-weight: normal;
+}
+.queEsImagen img{
+    display: none;
 }
 .textContainer{
     padding: 0 8%;
 }
-.demo{
-    font-weight: 700;
+
+.demoContainer{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 9.5em;
+    padding: 5px 0;
+
 }
+.demoContainer:hover{
+    background-color: #2E5F98;
+    cursor: pointer;
+}
+.demoContainer p{
+    margin: 0;
+}
+.acontainer{
+    display: inline-block;
+    margin: 0;
+}
+.acontainer:hover{
+    color: white;
+    font-weight: normal;
+}
+
 .orangeDivisor{
     background-color: #E5590A;
     width: 45px;
@@ -71,4 +100,36 @@ a:hover{
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+}
+
+
+@media only screen and (max-width: 768px){
+    .queEsContainer{
+        h2{
+            font-size: 40px;
+            margin-top: 9vh;
+        }
+    }
+    .queEsImg{
+        display: none;
+    }
+    .textQuees{
+        width: 100%;
+    }
+    .queEsImagen{
+        width: 100%;
+        img{
+            margin-top: 30px;
+            width: 100%;
+            border-radius: 100px 0 0 0;
+        }
+    }
+    .orangeContainer{
+        height: 13vh;
+        p{
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+
 }

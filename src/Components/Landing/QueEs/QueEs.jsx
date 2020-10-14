@@ -1,12 +1,14 @@
 import React from "react";
-import style from "./quees.module.css";
+import style from "./quees.module.scss";
 import Modulos from "./Modulos"
 import primeroSvg from "../../../assets/01.svg"
 import segundoSvg from "../../../assets/02.svg"
 import terceroSvg from "../../../assets/03.svg"
 import cuartoSvg from "../../../assets/04.svg"
 import quintoSvg from "../../../assets/05.svg"
-
+import queEsImagen from "../../../assets/a-smiling-person-wearing-an-orange-t-shirt-and-a-n-9M5R2VS.jpg"
+var Scroll = require('react-scroll');
+var Element = Scroll.Element;
 
 function QueEs() {
     let queEsDatos = [
@@ -38,17 +40,23 @@ function QueEs() {
 
     ]
     return (
-        <div>
+        <Element id='quees' name="quees">
             <div className={style.queEsContainer}>
                 <h2>¿Qué es Shipro?</h2>
                 <div className={style.greyBkg}>
                     <div className={style.textContainer}>
                         <div className={style.orangeDivisor}></div>
                         <div className={style.queEsImg}></div>
-                        <p className={style.textQuees}>Es un servicio de logística que usa la tecnología para garantizar la eficiencia de cada envío. Nuestro sistema se integra rápidamente a tu e-commerce, o plataforma de ventas para que puedas elegir las mejores opciones de tiempos y tarifas para enviar tus productos a donde querés.<br />
-                            <a href="mailto:shipro@shipro.pro" className={style.demo}>—<br />
-                    ¡Pedí tu demo!</a>
+                        <p className={style.textQuees}>Es un servicio de logística que usa la tecnología para garantizar la eficiencia de cada envío. Nuestro sistema se integra rápidamente a tu e-commerce, o plataforma de ventas para que puedas elegir las mejores opciones de tiempos y tarifas para enviar tus productos a donde querés.
                         </p>
+                        <a className={style.acontainer} href="mailto:contacto@shipro.pro" >
+                            <div className={style.demoContainer}>
+                                <p>¡Pedí tu demo!</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div className={style.queEsImagen}>
+                        <img src={queEsImagen} alt="Sobre Shipro" />
                     </div>
                     <Modulos queEsDatos={queEsDatos} />
                 </div>
@@ -56,7 +64,7 @@ function QueEs() {
             <div className={style.orangeContainer}>
                 <p>La logística que necesitás para el negocio que querés ser.</p>
             </div>
-        </div>
+        </Element >
     )
 }
 

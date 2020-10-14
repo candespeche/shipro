@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "./faqs.module.css"
+import style from "./faqs.module.scss"
 
 function Questions({ data }) {
     const [click, setClick] = useState(false)

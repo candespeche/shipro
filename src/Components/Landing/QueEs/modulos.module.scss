@@ -36,3 +36,25 @@
     text-align: center;
     color: #2E5F98; 
 }
+
+@media only screen and (max-width: 768px){
+    .flexContainer{
+        flex-direction: column;
+        .moduleContainer{
+            width: 100%;
+            flex-direction: row;
+            .moduleImage{
+                width: 70px;
+                padding-right: 2em;
+            }
+            .title{
+                text-align: start;
+                margin-bottom: 0;
+            }
+            .textInfo{
+                text-align: start;
+                margin-top: 0;
+            }
+        }
+    }
+}

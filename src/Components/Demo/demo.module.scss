@@ -1,0 +1,354 @@
+/*AZUL #2E5F98 */
+/* NARANJA #E5590A */
+/* body{
+    background-color: #2E5F98;
+} */
+.DemoCont{
+ background-color: #2E5F98;
+height: 100vh;
+}
+.demoNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 7%;
+}
+.logoH{
+    width: 55%;
+}
+.navLink{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.mainCont{
+    display: flex;
+    justify-content: flex-end;
+}
+.imgDemo{
+    background-image: url(../../assets/deliveryman-in-uniform-check-parcels-delivery-U5JQM9-azul.jpg);
+    width: 47%;
+    height: 84%;
+    border-radius: 0 180px 0 0;
+    background-size: cover;
+    padding-left: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    h1{
+        font-size: 55px;
+        font-weight: bold;
+        margin: 8% 0 1.5% 0;
+    }
+    h3{
+        color: white;
+        font-weight: 500;
+        font-size: 40px;
+        margin: 0;
+    }
+}
+
+input{
+    width: 90%;
+    height: 90%;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 0px solid;
+    color: white;
+    font-size: 16px;
+    &:focus{
+        outline: none;
+        border: 0px solid;
+    }
+}
+
+
+.formContainer{
+    padding: 0 4%;
+    width: 37%;
+    h2{
+        color: white;
+        font-size: 35px;
+        line-height: 41px;
+        font-weight: 600;
+    }
+}
+
+.formFocus{
+    margin-top: 5%;
+}
+.orangeDecor{
+    background-color: #E5590A;
+    width: 350px;
+    bottom: 0;
+    height: 110px;
+    margin-left: -15%;
+    border-radius: 60px 0 0 0;
+    position: absolute;
+}
+.orangeDivisor{
+    background-color: #E5590A;
+    width: 45px;
+    height: 7px;
+}
+.InputCont{
+    color: white;
+}
+.nameInput{
+    border-radius: 50px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.1);
+    height: 45px;
+    margin-top: 2%;
+}
+.miniInputCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.firstInputCont{
+    width: 100%;
+    color: white;
+}
+.formInput{
+    border-radius: 50px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.1);
+    height: 45px;
+}
+.formInput{
+    border-radius: 50px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.1);
+    height: 45px;
+    margin-top: 1%;
+}
+.secondInputCont{
+    width: 100%;
+    margin-left: 2%;
+    color: white;
+}
+.sumbitButtonCont{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6%;
+}
+.sumbitButton{
+    background-color: #E5590A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    width: 48%;
+    right: 0;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.sumbitButton:hover{
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0px 0px 16px -1px rgba(229,89,10,1);
+}
+
+
+.whatsappCont{
+    position: absolute;
+    align-items: center;
+    display: flex;
+    right: 0;
+    bottom: 0;
+    margin: 0 3% 3% 0;
+    img{
+        margin-left: 5%;
+        width: 20%;
+        cursor: pointer;
+    }
+}
+.wpBubble{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0 7%;
+    border-radius: 100px;
+    p{
+        opacity: 0.6;
+        color: white;
+        margin: 10px 0;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: none;
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+.formContainerTks{
+    padding: 7% 4%;
+    width: 37%;
+    h2{
+        color: white;
+        font-size: 40px;
+        line-height: 47px;
+        font-weight: 600;
+    }
+    h3{
+        color: white;
+        font-size: 22px;
+    }
+    h4{
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    a {
+        color: white;
+        text-decoration: underline;
+    }
+}
+
+/* MOBILE */
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    .formContainer{
+        margin-top: 67% !important;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px){
+    .formContainer{
+        margin-top: 83% !important;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 500px){
+    .formContainer{
+        margin-top: 103% !important;
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 400px){
+    .formContainer{
+        margin-top: 130% !important;
+    }
+    .imgDemo{
+        h1{
+            font-size: 28px;
+            margin: 0;
+        }
+        h3{
+            font-size: 24px;
+            margin: 0;
+        }
+    }
+}
+@media only screen and (max-width: 768px){
+    .DemoCont{
+        height: 100%;
+    }
+    .demoNav{
+        z-index: 2;
+        .logoH{
+            margin-top: 2%;
+        }
+        .navLink{
+            z-index: 2;
+            font-size: 13px;
+        }
+    }
+    .mainCont{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgDemoOrange{
+        width: 100%;
+        height: 60%;
+    }
+    .imgDemo{
+        z-index: 2;
+         margin-top: 19%;
+        top: 0;
+        width: 84%;
+        height: 50%;
+        border-radius: 0 300px 300px 0;
+        h1{
+            font-size: 32px;
+            margin: 0;
+        }
+        h3{
+            font-size: 28px;
+            margin: 0;
+        }
+    }
+    
+    .orangeDecor{
+        right: 0;
+        top: 0;
+        margin: 0;
+        height: 65%;
+        position: absolute;
+        z-index: 0;
+        border-radius: 100px 0 0 0;
+        width: 50%;
+    }
+    .formContainer{
+        width: 90%;
+        margin-top: 100%;
+        padding-left: 5%;
+        padding-right: 0;
+    }
+    .formContainerTks{ 
+        width: 90%;
+        margin-top: 100%;
+        padding-left: 5%;
+        padding-right: 0;
+    }
+        .formContainerTks h2{
+        font-size: 32px;
+        }
+        .formContainerTks h3{
+            font-size: 18px;
+        }
+
+        a{
+            text-decoration: underline;
+        }
+   
+    .sumbitButton{
+        width: 100%;
+        margin-left: 0;
+        border-color: transparent;
+
+    }
+    .wpBubble{
+        display: none;
+    }
+    .whatsappCont{
+        position: sticky;
+        bottom: 0;
+        right: 0;
+        margin-left: 50%;
+        padding-bottom: 4%;
+        margin-bottom: 0;
+        img{
+            width: 32%;
+            margin-left: 60%;
+            
+        }
+    }
+}

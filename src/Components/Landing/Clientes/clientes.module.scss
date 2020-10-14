@@ -41,18 +41,52 @@
     cursor: pointer;
 }
 .logos01 img{
-    width: 23%;
-
+    margin: 10px 0;
+    width: 250px;
 }
 .logos01{
     margin: 50px 0 30px 0;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .logos02 img{
-    width: 23%;
+    margin: 10px 0;
+    width: 200px;
 }
 .logos02{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px){
+    .clientesContainer{
+        flex-direction: column;
+        .txtContainer{
+            width: 100%;
+            .textQuees{
+                width: 100%;
+            }
+            .titleClientes{
+                font-size: 40px;
+            }
+        }
+        .logosClientes{
+            width: 100%;
+            .logos01{
+                justify-content: space-between;
+                margin-bottom: 0;
+                img{
+                    width: 33%;
+                }
+            }
+            .logos02{
+                justify-content: space-evenly;
+                img{
+                    width: 45%;
+                }
+            }
+        }
+    }
 }
