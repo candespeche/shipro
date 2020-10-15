@@ -3,8 +3,17 @@ import style from "./demo.module.scss";
 import { Link } from "react-router-dom";
 import logo from "../../assets/shipro-logo.svg"
 import whatsapp from "../../assets/whatsapp.svg"
+// import ReactGA from 'react-ga';
+// import auth from './auth.ts'; // Sample authentication provider
 
-function Demo({ handleSubmit, thanks, name, handleInput }) {
+function Demo({ handleSubmit, handleInput }) {
+    // const trackingId = "UA-1234567890-1"; // Replace with your Google Analytics tracking ID
+    // ReactGA.initialize(trackingId);
+    // ReactGA.set({
+    //     userId: auth.currentUserId(),
+    //     // any data that is relevant to the user session
+    //     // that you would like to track with google analytics
+    // })
 
     return (
         <div className={style.DemoCont}>
@@ -25,54 +34,44 @@ function Demo({ handleSubmit, thanks, name, handleInput }) {
                     </div>
                     <div className={style.orangeDecor}></div>
                 </div>
-                {thanks ? (
-                    <div className={style.formContainerTks}>
-                        <h2>¡Gracias {name}<br />por dejarnos tus datos!</h2>
-                        <div className={style.orangeDivisor}></div>
-                        <h3>En las próximas 24hs hábiles<br />nos comuncaremos con vos.</h3>
-                        <h4>Si tenés alguna duda, <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=5491155772580">escribinos.</a></h4>
-                    </div>
-                ) : (
-                        <div className={style.formContainer}>
-                            <h2>¡Dejanos tus datos<br />y nos contactamos!</h2>
-                            <div className={style.orangeDivisor}></div>
-                            <form onSubmit={(e) => { handleSubmit(e) }} className={style.formFocus}>
-                                <div className={style.firstInputCont}>Nombre y apellido*
+                <div className={style.formContainer}>
+                    <h2>¡Dejanos tus datos<br />y nos contactamos!</h2>
+                    <div className={style.orangeDivisor}></div>
+                    <form onSubmit={(e) => { handleSubmit(e) }} className={style.formFocus}>
+                        <div className={style.firstInputCont}>Nombre y apellido*
                             <div className={style.formInput}>
-                                        <input type="text" onChange={(e) => { handleInput(e) }} name="nombre_apellido" required />
-                                    </div>
-                                </div>
-                                <div className={style.miniInputCont}>
-                                    <div className={style.firstInputCont}>Empresa y cargo
-                            <div className={style.formInput}>
-                                            <input type="text" onChange={(e) => { handleInput(e) }} name="cargo" />
-                                        </div>
-                                    </div>
-                                    <div className={style.secondInputCont}>País*
-                        <div className={style.formInput}>
-                                            <input type="text" onChange={(e) => { handleInput(e) }} name="pais" required />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className={style.miniInputCont}>
-                                    <div className={style.firstInputCont}>Email*
-                            <div className={style.formInput}>
-                                            <input onChange={(e) => { handleInput(e) }} type="email" name="email" required />
-                                        </div>
-                                    </div>
-                                    <div className={style.secondInputCont}>Teléfono
-                        <div className={style.formInput}>
-                                            <input onChange={(e) => { handleInput(e) }} type="number" name="telefono" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className={style.sumbitButtonCont}>
-                                    <button type="submit" className={style.sumbitButton}>Enviar</button>
-                                </div>
-                            </form>
+                                <input type="text" onChange={(e) => { handleInput(e) }} name="nombre_apellido" required />
+                            </div>
                         </div>
-                    )
-                }
+                        <div className={style.miniInputCont}>
+                            <div className={style.firstInputCont}>Empresa y cargo
+                            <div className={style.formInput}>
+                                    <input type="text" onChange={(e) => { handleInput(e) }} name="cargo" />
+                                </div>
+                            </div>
+                            <div className={style.secondInputCont}>País*
+                        <div className={style.formInput}>
+                                    <input type="text" onChange={(e) => { handleInput(e) }} name="pais" required />
+                                </div>
+                            </div>
+                        </div>
+                        <div className={style.miniInputCont}>
+                            <div className={style.firstInputCont}>Email*
+                            <div className={style.formInput}>
+                                    <input onChange={(e) => { handleInput(e) }} type="email" name="email" required />
+                                </div>
+                            </div>
+                            <div className={style.secondInputCont}>Teléfono
+                        <div className={style.formInput}>
+                                    <input onChange={(e) => { handleInput(e) }} type="number" name="telefono" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className={style.sumbitButtonCont}>
+                            <button type="submit" className={style.sumbitButton}>Enviar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
             <a target="_blank" rel="noopener noreferrer" href={"https://api.whatsapp.com/send?phone=5491155772580"}>
                 <div className={style.whatsappCont}>
