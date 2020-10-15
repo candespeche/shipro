@@ -3,17 +3,8 @@ import style from "./demo.module.scss";
 import { Link } from "react-router-dom";
 import logo from "../../assets/shipro-logo.svg"
 import whatsapp from "../../assets/whatsapp.svg"
-// import ReactGA from 'react-ga';
-// import auth from './auth.ts'; // Sample authentication provider
 
 function Demo({ handleSubmit, handleInput }) {
-    // const trackingId = "UA-1234567890-1"; // Replace with your Google Analytics tracking ID
-    // ReactGA.initialize(trackingId);
-    // ReactGA.set({
-    //     userId: auth.currentUserId(),
-    //     // any data that is relevant to the user session
-    //     // that you would like to track with google analytics
-    // })
 
     return (
         <div className={style.DemoCont}>

@@ -3,19 +3,8 @@ import style from "./demo.module.scss";
 import { Link } from "react-router-dom";
 import logo from "../../assets/shipro-logo.svg"
 import whatsapp from "../../assets/whatsapp.svg"
-import ReactPixel from 'react-facebook-pixel';
 
 function Thanks(props) {
-    const options = {
-        autoConfig: true,
-        debug: false,
-    };
-    ReactPixel.init('610050959688626', options);
-    ReactPixel.pageView();
-    // ReactPixel.track(event, data); // For tracking default events, more info about events and data https://developers.facebook.com/docs/ads-for-websites/pixel-events/v2.9
-    // ReactPixel.trackSingle('PixelId', event, data); // For tracking default events, more info about events and data https://developers.facebook.com/docs/ads-for-websites/pixel-events/v2.9
-    // ReactPixel.trackCustom(event, data);
-    // ReactPixel.trackSingleCustom('PixelId', event, data);
     return (
         <div className={style.DemoCont}>
             <div className={style.demoNav}>
