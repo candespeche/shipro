@@ -58,7 +58,7 @@ function Navbar({ home }) {
                             <p className={hover2 ? style.hover2onp : style.links}>Nuestro sistema</p>
                             <div className={hover2 ? style.hover2on : style.hover2off}>
                                 <ul>
-                                    <li><a href="http://shipro.pro/docs">Nuestra documentación</a></li>
+                                    <li><a href="https://shipro.pro/docs">Nuestra documentación</a></li>
                                     <li><Link to="/faqs">Preguntas frecuentes</Link></li>
                                     {/* <li>Tecnologías y pluggins</li> */}
                                 </ul>
@@ -73,7 +73,7 @@ function Navbar({ home }) {
                             </svg>
                         </a>
                         {/* <div onMouseEnter={() => setHover3(true)} onMouseLeave={() => setHover3(false)}> */}
-                        <a target="_blank" rel="noopener noreferrer" href="http://shipro.pro/login">
+                        <a target="_blank" rel="noopener noreferrer" href="https://shipro.pro/login">
                             <svg className={hover3 ? style.hover3onp : style.hover3offp} xmlns="http://www.w3.org/2000/svg" width="26" height="27" viewBox="0 0 26 29">
                                 <g id="Icon_feather-user" data-name="Icon feather-user" transform="translate(-5 -3.5)">
                                     <path id="Trazado_97" data-name="Trazado 97" d="M30,31.5v-3a6,6,0,0,0-6-6H12a6,6,0,0,0-6,6v3" fill="none" strokeLinejoin="round" strokeWidth="2.4" />
@@ -82,7 +82,7 @@ function Navbar({ home }) {
                             </svg>
                             {/* <div className={hover3 ? style.hover3on : style.hover3off}>
                         <ul>
-                            <li><a href="http://shipro.pro/login">Iniciar sesión</a></li>
+                            <li><a href="https://shipro.pro/login">Iniciar sesión</a></li>
                             <li>Registrarme</li>
                         </ul>
                     </div> */}
@@ -99,9 +99,9 @@ function Navbar({ home }) {
                     <div className={style.burgerIcon3}></div>
                 </div>
                 <a className={style.firstLink} href="mailto:contacto@shipro.pro">Contactanos</a>
-                <a href="http://shipro.pro/docs">Nuestra documentación</a>
+                <a href="https://shipro.pro/docs">Nuestra documentación</a>
                 <Link to="/faqs">Preguntas frecuentes</Link>
-                <a href="http://shipro.pro/login">Iniciar sesión</a>
+                <a href="https://shipro.pro/login">Iniciar sesión</a>
             </div>
         </>
     )
