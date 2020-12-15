@@ -1,0 +1,12 @@
+import React from "react";
+import style from "./demo.module.scss";
+import { Link } from "react-router-dom";
+import logo from "../../assets/shipro-logo.svg"
+import whatsapp from "../../assets/whatsapp.svg"
+
+function Demo({ handleSubmit, handleInput }) {
+
+    return (
+        <div className={style.DemoCont}>
+            <div className={style.demoNav}>
+                <Link to={"/"}>

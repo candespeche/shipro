@@ -33,9 +33,6 @@ function Thanks(props) {
             </div>
             <a target="_blank" rel="noopener noreferrer" href={"https://api.whatsapp.com/send?phone=5491155772580"}>
                 <div className={style.whatsappCont}>
-                    <div className={style.wpBubble}>
-                        <p>o escribinos por Whatsapp</p>
-                    </div>
                     <img src={whatsapp} alt="whatsapp" />
                 </div>
             </a>

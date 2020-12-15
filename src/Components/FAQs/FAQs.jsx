@@ -85,17 +85,7 @@ function FAQs() {
     ]
     return (
         <div>
-            <Navbar home={false} />
-            <div className={style.heroContainer}>
-                <div className={style.titleWraper}>
-                    <h1>Preguntas<br />frecuentes</h1>
-                    <div className={style.orangeDivisor}></div>
-                </div>
-                <div className={style.faqImg}></div>
-                <div className={style.fotoMobile}>
-                    <img src={envioFoto} alt="preguntas frecuentes" />
-                </div>
-            </div>
+<Navbar home={false} />
             <div className={style.faqContainer}>
                 {questions.map((eachQuestion) => {
                     return (

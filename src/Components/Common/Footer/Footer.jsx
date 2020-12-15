@@ -1,6 +1,11 @@
 import React from "react";
 import styles from "./footer.module.scss"
 import logo from "../../../assets/shipro-logo.svg"
+import { Link } from "react-router-dom";
+import { useState } from "react";
+var Scroll = require('react-scroll');
+var LinkScroll = Scroll.link;
+
 function Footer() {
     return (
         <div className={styles.mobileContainer}>
@@ -8,10 +13,10 @@ function Footer() {
                 <div className={styles.divsBlue}>
                     <img alt="Shipro" src={logo} />
                     <div className={styles.divsLinks}>
-                        <a className={styles.links} target="_blank" rel="noopener noreferrer" href="http://shipro.pro/docs/">Nuestra documentación</a>
-                        <a className={styles.links} target="_blank" rel="noopener noreferrer" href="/faqs">FAQs</a>
-                        <a className={styles.links} target="_blank" rel="noopener noreferrer" href="http://shipro.pro/login">Iniciar sesión</a>
-                        <a className={styles.links} href="mailto:contacto@shipro.pro">Pedí tu demo</a>
+                        <a className={styles.links} target="_blank" rel="noopener noreferrer" href="https://shipro.pro/docs/">Nuestra documentación</a>
+                        <Link className={styles.links} rel="noopener noreferer" to="/faqs">FAQs</Link>
+                        <a className={styles.links} target="_blank" rel="noopener noreferrer" href="https://shipro.pro/login">Iniciar sesión</a>
+                        <Link className={styles.links} rel="noopener noreferer" to="/solicitar-demo">Pedí tu demo</Link>
                     </div>
                 </div>
                 <div className={styles.aligncopyright}>

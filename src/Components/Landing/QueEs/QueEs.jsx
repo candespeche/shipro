@@ -49,7 +49,7 @@ function QueEs() {
                         <div className={style.queEsImg}></div>
                         <p className={style.textQuees}>Es un servicio de logística que usa la tecnología para garantizar la eficiencia de cada envío. Nuestro sistema se integra rápidamente a tu e-commerce, o plataforma de ventas para que puedas elegir las mejores opciones de tiempos y tarifas para enviar tus productos a donde querés.
                         </p>
-                        <a className={style.acontainer} href="mailto:contacto@shipro.pro" >
+                        <a className={style.acontainer} Link to="/solicitar-demo" >
                             <div className={style.demoContainer}>
                                 <p>¡Pedí tu demo!</p>
                             </div>
