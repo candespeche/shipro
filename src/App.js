@@ -17,19 +17,18 @@ ReactGA.initialize(trackingId, { //obligatorio
 });
 ReactGA.pageview(window.location.pathname + window.location.search);
 
+const options = {
+    autoConfig: true,
+    debug: false
+};
+ReactPixel.init('168293957969418', options);
+ReactPixel.pageView();
+ReactPixel.track('PageView', {});
+
 history.listen(location => {
   ReactGA.set({ page: location.pathname });
   ReactGA.pageview(location.pathname);
 });
-
-
-const options = {
-  autoConfig: true,
-  debug: false,
-};
-ReactPixel.init('610050959688626', options);
-ReactPixel.pageView();
-
 
 function App() {
   return (

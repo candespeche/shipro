@@ -1,0 +1,113 @@
+.blueContainer{
+    font-size: 14px;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: -300px;
+    height: 300px;
+    width: 65%;
+    background-color:#2E5F98;
+    border-radius: 0 100px 0 0;
+   float: left;
+}
+.grayContainer{
+    font-size: 13px;
+    color: #E5590A;
+    margin-left: 55%;
+    height: 400px;
+    width: 45%;
+    background-color:#e2e2e2;
+    border-radius: 100px 0 0 0;
+
+}
+.divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divs h2{
+    margin-top: 25%;
+    margin-left: -10%;
+    margin-bottom: 0;
+}
+.divs a {
+    color: #E5590A;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: left;
+}
+.divs a:hover {
+    font-weight: 500;
+
+}
+.divsBlue{
+    display: flex;
+    justify-content: space-between;
+    padding: 8% 28% 0 13%;
+    align-items: flex-start;
+}
+.aligncopyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    padding: 0 15%;
+    text-align: center;
+}
+.copyright{
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: .2px;
+}
+.divsLinks{
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.links:hover{
+    cursor: pointer;
+color: #e2e2e2;
+}
+.divsBlue img{
+    width: 150px;
+}
+
+@media only screen and (max-width: 768px){
+    .mobileContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .blueContainer{
+        width: auto;
+        border-radius: 0;
+        padding-bottom: 30px;
+    }
+    .divsLinks{
+        display: none;
+    }
+    .divs{
+        align-items: flex-start;
+        padding: 5% 12%;
+        h2{
+            margin: 0;
+            margin-top: 19%;
+        }
+    }
+    .grayContainer{
+        background-color: transparent;
+        height: auto;
+        color: white;
+        margin: 0;
+        width: 100%;
+
+        a{
+            color: white;
+        }
+    }
+    .copyright{
+        display: none;
+    }
+}

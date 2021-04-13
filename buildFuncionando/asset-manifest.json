@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a46a5a1.chunk.css",
+    "main.js": "/static/js/main.844fc72a.chunk.js",
+    "main.js.map": "/static/js/main.844fc72a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0cdc2462.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0cdc2462.js.map",
+    "static/js/2.dfdd6569.chunk.js": "/static/js/2.dfdd6569.chunk.js",
+    "static/js/2.dfdd6569.chunk.js.map": "/static/js/2.dfdd6569.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.2e9bb73ac125be3b7209baddf12827e0.js": "/precache-manifest.2e9bb73ac125be3b7209baddf12827e0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3a46a5a1.chunk.css.map": "/static/css/main.3a46a5a1.chunk.css.map",
+    "static/js/2.dfdd6569.chunk.js.LICENSE.txt": "/static/js/2.dfdd6569.chunk.js.LICENSE.txt",
+    "static/media/01.svg": "/static/media/01.4b029c7f.svg",
+    "static/media/02.svg": "/static/media/02.af6475ab.svg",
+    "static/media/03.svg": "/static/media/03.9593d01c.svg",
+    "static/media/04.svg": "/static/media/04.00a7dd7b.svg",
+    "static/media/05.svg": "/static/media/05.b678889a.svg",
+    "static/media/a-smiling-person-wearing-an-orange-t-shirt-and-a-n-9M5R2VS.jpg": "/static/media/a-smiling-person-wearing-an-orange-t-shirt-and-a-n-9M5R2VS.4d637bd0.jpg",
+    "static/media/clientes02.png": "/static/media/clientes02.2d9bf2f3.png",
+    "static/media/clientes03.png": "/static/media/clientes03.44e852a3.png",
+    "static/media/courier-delivering-parcel.jpg": "/static/media/courier-delivering-parcel.47ed63d5.jpg",
+    "static/media/demo.module.scss": "/static/media/deliveryman-in-uniform-check-parcels-delivery-U5JQM9-azul.20ecc2f7.jpg",
+    "static/media/hero.module.scss": "/static/media/parcel-boxes-in-cargo-cart-delivery-service-JRAA53J.ef5f1103.jpg",
+    "static/media/shipro-logo.svg": "/static/media/shipro-logo.59133b56.svg",
+    "static/media/whatsapp.svg": "/static/media/whatsapp.5d559eb5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cdc2462.js",
+    "static/js/2.dfdd6569.chunk.js",
+    "static/css/main.3a46a5a1.chunk.css",
+    "static/js/main.844fc72a.chunk.js"
+  ]
+}

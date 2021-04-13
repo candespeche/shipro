@@ -3,7 +3,6 @@ import style from "./faqs.module.scss"
 import Navbar from "../Common/Navbar/Navbar"
 import Questions from "./Questions"
 import Footer from "../Common/Footer/Footer";
-import envioFoto from "../../assets/courier-delivering-parcel.jpg"
 
 function FAQs() {
     let questions = [{

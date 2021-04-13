@@ -1,10 +1,6 @@
 import React from "react";
 import style from "./hero.module.scss";
-import logo from "../../../assets/shipro-logo.svg"
 import { Link } from "react-router-dom";
-import { useState } from "react";
-var Scroll = require('react-scroll');
-var LinkScroll = Scroll.Link;
 
 function Hero() {
     return (
