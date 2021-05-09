@@ -2,6 +2,7 @@ import React from 'react';
 import Landing from "./Components/Landing/Landing"
 import FAQs from "./Components/FAQs/FAQs"
 import Demo from "./Components/Demo/DemoContainer"
+import Kit from "./Components/Kit/Kit.jsx";
 import Thanks from './Components/Demo/Thanks';
 import { BrowserRouter, Route, Switch } from "react-router-dom"
 import './App.css';
@@ -39,6 +40,7 @@ function App() {
           <Route exact path="/faqs" component={FAQs} home={false} />
           <Route exact path="/solicitar-demo" component={Demo} />
           <Route exact path="/thankyou" component={Thanks} />
+          <Route exact path="/welcome-kit" component={Kit} home={false}/>
         </Switch>
       </div>
     </BrowserRouter>
